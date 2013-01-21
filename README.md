@@ -12,7 +12,7 @@ The wiki for this project contains the API docs for the AMD API.
   <br />
   To the extent possible under law,
   <a rel="dct:publisher"
-     href="https://github.com/promises-aplus">
+     href="https://github.com/amdjs">
     <span property="dct:title">the amdjs organization</span></a>
   has waived all copyright and related or neighboring rights to
   <span property="dct:title">AMD specifications</span>.

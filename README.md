@@ -5,7 +5,7 @@ This repo holds the API specifications for AMD and some APIs that are strongly r
 * [Loader Plugins](https://github.com/amdjs/amdjs-api/blob/master/LoaderPlugins.md): Loader plugins extend an AMD implementation by allowing loading of resources that are not traditional JavaScript dependencies.
 * [Common-Config](https://github.com/amdjs/amdjs-api/blob/master/CommonConfig.md): Optional common configuration. If a loader supports functionality that matches capabilities specified in these configuration values, these structures should be used to allow easier interop with other loaders.
 
-The [amd-implement list](https://groups.google.com/group/amd-implement) is for discussions that do not fit into smaller items that can be tracked by issue tickets.
+If you are implementing an AMD loader, the [amd-implement list](https://groups.google.com/group/amd-implement) is for discussions that do not fit into smaller items that can be tracked by issue tickets.
 
 Some documents on the wiki that are not actual APIs but information related to AMD use:
 

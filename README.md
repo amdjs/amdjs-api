@@ -1,5 +1,3 @@
-# Asynchronous Module Definition (AMD) API
-
 This repo holds the API specifications for AMD and some APIs that are strongly related to AMD.
 
 * [AMD](https://github.com/amdjs/amdjs-api/blob/master/AMD.md): The Asynchronous Module Definition. The primary building block for referencing and defining modular JS code.
@@ -13,8 +11,7 @@ Some documents on the wiki that are not actual APIs but information related to A
 
 Documents related to AMD and its use in other libraries:
 
-* [AMD Forks](https://github.com/amdjs/amdjs-api/wiki/jQuery-and-AMD): A listing of forks for libraries that have AMD registration built in.
-
+* [AMD Forks](https://github.com/amdjs/amdjs-api/wiki/AMD-Forks): A listing of forks for libraries that have AMD registration built in.
 
 The [wiki](https://github.com/amdjs/amdjs-api/wiki) for this project also contains copies of the information in this repo. Those pages are kept for historical reasons/links, but the contents of this repo are considered the definitive source.
 

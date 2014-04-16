@@ -37,7 +37,7 @@ The CommonJS module id properties quoted above are normally used for JavaScript 
 Relative module ID resolution examples:
 
 * if module `"a/b/c"` asks for `"../d"`, that resolves to `"a/d"`
-* if module `"a/b/c"` asks for `"./e"`, that resoles to `"a/b/e"`
+* if module `"a/b/c"` asks for `"./e"`, that resolves to `"a/b/e"`
 
 If [Loader Plugins](https://github.com/amdjs/amdjs-api/blob/master/LoaderPlugins.md) are supported in the AMD implementation, then "!" is used to separate the loader plugin's module id from the plugin's resource id. Since plugin resource ids can be extremely free-form, most characters should be allowed for plugin resource ids.
 

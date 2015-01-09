@@ -131,9 +131,3 @@ The index! plugin could be written like so:
 
     }());
 ```
-
-## dynamic: Boolean <a name="dynamic"></a>
-
-If the plugin has a **dynamic** property set to true, then it means the loader MUST NOT cache the value of a normalized plugin dependency, but instead call the plugin's [load](#wiki-load) method for each instance of a plugin dependency.
-
-This allows some plugins to provide time or per-call dependent values.

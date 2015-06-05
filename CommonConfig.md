@@ -34,7 +34,7 @@ Object. For specifying a path for a the given module ID prefix.
 A property in the `paths` object is an absolute module ID prefix, and the value
 can either be:
 
-* String: a path value to use for the module ID prefix.  If it is a relative path, it it relative to baseUrl. It can be an absolute path, like `/top/level/dir` or ``//top/level/dir` or `http://some.domain.com/top/level/dir`.
+* String: a path value to use for the module ID prefix.  If it is a relative path, it it relative to baseUrl. It can be an absolute path, like `/top/level/dir` or `//top/level/dir` or `http://some.domain.com/top/level/dir`.
 * Array: Optional. If the module loader provides a failover capability, the loader can allow an Array of String path values. If the loader cannot load the module at the first path in the Array, it can try the next path in the Array, and so on.
 
 ## packages <a name="packages"></a>

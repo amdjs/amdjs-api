@@ -34,7 +34,7 @@ Object. For specifying a path for a the given module ID prefix.
 A property in the `paths` object is an absolute module ID prefix, and the value
 can either be:
 
-* String: a path value to use for the module ID prefix.  If it is a relative path, it it relative to baseUrl. It can be an absolute path, like `/top/level/dir` or `//top/level/dir` or `http://some.domain.com/top/level/dir`.
+* String: a path value to use for the module ID prefix.  If it is a relative path, it is relative to baseUrl. It can be an absolute path, like `/top/level/dir` or `//top/level/dir` or `http://some.domain.com/top/level/dir`.
 * Array: Optional. If the module loader provides a failover capability, the loader can allow an Array of String path values. If the loader cannot load the module at the first path in the Array, it can try the next path in the Array, and so on.
 
 ## packages <a name="packages"></a>
@@ -216,7 +216,7 @@ If "exports" and "init" are not needed for the script (common for plugins for ot
 
 On builds:
 
-While not required to be conformant with this API, it is suggested that a define() wrapper is **not** placed around the shimmed script in a build/concatenation scenario. Many shimmed scripts declare their globals via a a simple `var globalValue = {}` in the script, and wrapping that code in a define() wrapper will result in that value not being global. If this shimmed script is used in combination with other shimmed scripts that depend on that global being there, there will likely be problems.
+While not required to be conformant with this API, it is suggested that a define() wrapper is **not** placed around the shimmed script in a build/concatenation scenario. Many shimmed scripts declare their globals via a simple `var globalValue = {}` in the script, and wrapping that code in a define() wrapper will result in that value not being global. If this shimmed script is used in combination with other shimmed scripts that depend on that global being there, there will likely be problems.
 
 So if a define() wrapper is not used around the shimmed script, the "deps" for the shimmed script should be placed in the built file before the shimmed script.
 
